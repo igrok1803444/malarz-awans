@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>malarz</title>
+
+    <link rel="stylesheet" href="./styl_1.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="main-title">Malowanie pokoi i biur</h1>
+    </header>
+    <main class="main-content">
+      <section class="left-section menu">
+        <h2 class="left-section-title">Menu</h2>
+        <ul class="menu-list">
+          <li class="list-item">
+            <a href="./mieszamy.html" class="menu-link">Mieszamy</a>
+          </li>
+          <li class="list-item">
+            <a href="./cena.html" class="menu-link">Wyceniamy</a>
+          </li>
+        </ul>
+      </section>
+      <section class="central-section">
+        <h2 class="central-section-title">Zapotrzebowanie na farbę</h2>
+        <label f class="central-section-label"
+          >Powierzchnia malowania (m<sup>2</sup>):
+          <input class="space-count-input" name="spaceCount" type="number"
+        /></label>
+        <button class="submit-btn" type="button">Policz</button>
+        <p class="script-output"></p>
+      </section>
+      <section class="right-section">
+        <img src="./obraz.png" alt="Próbki farb" class="right-section-img" />
+      </section>
+    </main>
+    <footer class="footer">
+      <h3 class="footer-title">Malarz</h3>
+      <p class="footer-text">Stronę opracował: Vialov Vlad</p>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
